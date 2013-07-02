@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Kirtan Title Finder........</title>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-autocomplete.js"></script>
+<script src="js/jquery.select-to-autocomplete.min.js"></script>
+<script src="js/titles.js"></script>
+<script src="js/legends.js"></script>
+<script src="js/kirtantitlefinder.js"></script>
+
+<link rel="stylesheet" media="screen and (max-width : 319px)" href="css/lessthansmartphones.css" />
+<link rel="stylesheet" media="screen and (min-width : 320px) and (max-width : 480px)" href="css/smartphones.css" />
+<link rel="stylesheet" media="screen and (min-width : 480px) and (max-width : 768px)" href="css/smartphones2.css" />
+<link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 1024px)" href="css/ipads.css" />
+<link rel="stylesheet" media="screen and (min-width : 1025px) and (max-width : 1223px)" href="css/ipads2.css" />
+<link rel="stylesheet" media="screen and (min-width : 1224px) and (max-width : 1823px)"" href="css/desktops.css" />
+<link rel="stylesheet" media="screen and (min-width : 1824px)" href="css/largescreens.css" />
+
+
+<title>Kirtan Title Finder</title>
+</head>
+
+<body>
+	<div id="divContainer">
+
+		<div id="kirtanSearchbar">
+			<label for=searchLabel>Type in some letters or words of the
+				MP3 Kirtan.( For exact search, Tick this Checkbox : <input id=chbox type="checkbox"
+				name="exact_search" value="ON"> )
+			</label><br />
+			<br>
+			
+			<div id=myinput>
+			<input type="text" name="tags" id="tags"
+					placeholder="Type Something">
+			</div>
+			<div id=myselect>
+			<select name="Titles" id="myDropdown" autofocus="autofocus"
+			autocorrect="off" autocomplete="off" placeholder="Type Something">
+			</select>
+			</div>
+			
+		</div>
+		<br>
+
+		<div id="kirtanDiv" style="display: table;">
+			<label for=details id=kirtandetails> Kirtan Details</label> <br />
+			<table width="100%" align="left" style="table-layout: fixed;" id=kirtandetailsmain>
+
+				<tr>
+					<td>
+						<table id="kirtanDetails" cellpadding=2>
+							
+							<tr id=rowenglishtitle>
+								<td>English Title:  </td>
+								<td id=englishtitle>apanapan rakhana mere ghanashyam</td>
+							</tr>
+							<tr id=rowbook>
+								<td >Book:  </td>
+								<td id=book>Prem Ras Madira</td>
+							</tr>
+							<tr id=rowmadhuri>
+								<td>Madhuri:  </td>
+								<td id=madhuri>E.g. Virah Madhuri</td>
+							</tr>
+							<tr id=rowpagenumber>
+								<td>Page Number:  </td>
+								<td id=pagenumber>120</td>
+							</tr>
+							<tr id=rowpadnumber>
+								<td>Pad Number:  </td>
+								<td id=padnumber>130</td>
+							</tr>
+							<tr id=rowsbook>
+								<td>Second Book:  </td>
+								<td id=sbook>Prem Ras Madira</td>
+							</tr>
+							
+							<tr id=rowspagenumber>
+								<td>Second Book Page:  </td>
+								<td id=spagenumber>120</td>
+							</tr>
+							<tr id=rowspadnumber>
+								<td>Second Book Pad:  </td>
+								<td id=spadnumber>130</td>
+							</tr>
+						</table>
+					</td>
+					
+				</tr>
+			</table>
+			<br />
+		</div>
+
+		<br />
+	</div>
+</body>
+</html>

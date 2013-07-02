@@ -1,0 +1,74 @@
+body {
+	font-family:Verdana;
+	font-size:20px;
+}
+
+.ui-autocomplete {
+	padding: none;
+	list-style: none;
+	background-color: #fff;
+	width: 250px;
+	border: 1px solid #B0BECA;
+	max-height: 140px;
+	overflow-y: scroll;
+}
+
+.ui-autocomplete .ui-menu-item a {
+	border-top: 1px solid #B0BECA;
+	display: block;
+	padding: 4px 6px;
+	color: #353D44;
+	cursor: pointer;
+}
+
+.ui-autocomplete .ui-menu-item:first-child a {
+	border-top: none;
+}
+
+.ui-autocomplete .ui-menu-item a.ui-state-hover {
+	background-color: #D5E5F4;
+	color: #161A1C;
+}
+
+#kirtanSearchbar{
+    width:100%;
+    overflow:hidden;
+    /* add gradient */
+    background-color:#808080;
+    background:-webkit-gradient(linear, left top, left bottom, from(#B0C4DE), to(#F0FFFF));
+    background:-moz-linear-gradient(top, #B0C4DE, #F0FFFF);
+}
+
+#kirtanDiv
+{
+   width:100%;
+ }
+
+
+table.kirtanDetails
+{    
+    width:100%;
+    border-collapse:collapse;
+    text-align:left; 
+    color: #606060;
+    table-layout:fixed;
+}
+
+div#divContainer
+{
+    min-width:280px;
+    max-width:280px;
+    margin:0 auto;
+    font-family:Calibri;
+    padding:0.5em 1em 1em 1em;
+ }
+ 
+  
+ input {
+	width: 240px;
+}
+
+#chbox{
+	width: 18px;
+}
+ 
